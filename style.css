@@ -1,0 +1,128 @@
+.grid {
+    position: relative;
+    left: 23%;
+    width: 800px;
+    height: 700px;
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/024/388/227/4k/tyler-klimek-slightlybrighter-bloodgulchheader.jpg?1582238307);
+    border-radius: 5%;
+    border: 1px solid black;
+    padding: 1.5rem;
+    align-items: center;
+    background-size: cover;
+    opacity: .9;
+}
+
+.slot {
+    width: 90px;
+    height: 90px;
+    background: rgb(212, 226, 248);
+    border: 2px solid black;
+    align-items: center;
+    opacity: .85;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    color: azure;
+    font-size: 4rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+    font-size: x-large;
+    padding: 5px;
+    position: fixed;
+    color: azure;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h3 {
+    font-size: x-large;
+    padding: 5px;
+    margin-top: 5%;
+    position: fixed;
+    color: azure;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.p1 {
+    background-color: rgb(131, 2, 2);
+    border-radius: 50%;
+    margin:auto;
+}
+
+.p2 {
+    background-color: rgb(8, 8, 177);
+    border-radius: 50%;
+    margin:auto;
+}
+
+.blue {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(8, 8, 177);
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.red {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(131, 2, 2);
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.hover {
+    transform: scale(.65);
+}
+
+
+.piece {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+}
+
+.arrow {
+    width: 100px;
+    height: 100px;
+    background: rgb(102, 100, 100);
+    opacity: .7;
+}
+
+td {
+    border-radius: 10%;
+}
+
+.drop {
+    position: relative;
+    left: 23%;
+    width: 800px;
+    height: 90px;
+    padding: 1.5rem;
+}
+
+body {
+    background-image: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/25/126305-Red_vs._Blue-Halo.jpg);
+    background-size: cover;
+}
+
+/* #reset {
+    position: relative;
+    left: 47.3%;
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    height: 50px;
+    width: 80px;
+    margin: auto;
+    text-align: center;
+    display: table-cell;
+    border-radius: 10%;
+    background: linear-gradient(lightblue,darkgrey);
+} */
