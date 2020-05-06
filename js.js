@@ -66,10 +66,12 @@ arrows.addEventListener('click', (e)=>{
     //check if win
     if (checkForWin()) {
         alert(`Player ${currentPlayer} won!`);
+        window.location.reload();
     };
     //check if tie
     if (board.every(row => row.every(cell => cell))) {
         alert('Match is a draw!');
+        window.location.reload();
     };
     //switch current player after piece drop and game over checks
     currentPlayer = currentPlayer === 1 ? 2: 1;
